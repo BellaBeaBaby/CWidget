@@ -1,7 +1,7 @@
 let BGC = "686fcf"
 let TC = "22222b"
 
-const elapsedDays = Math.floor((new Date() - new Date(2023, 4, 23, 5, 30)) / (1000 * 60 * 60 * 24))
+const elapsedDays = Math.floor((new Date() - new Date(2023, 11, 13, 5, 30)) / (1000 * 60 * 60 * 24))
 
 let text = FileManager.iCloud().readString(FileManager.iCloud().joinPath(FileManager.iCloud().documentsDirectory(), "/System/list.txt")).toString()
 
